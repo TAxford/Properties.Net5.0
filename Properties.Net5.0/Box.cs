@@ -16,7 +16,8 @@ namespace Properties.Net5._0
 
         public void DisplayInfo()
         {
-            Console.WriteLine("Lenght is {0} and height is {1} and width is {2} so the volumeis {3}", length, height, width, volume = length*height*width);
+            Console.WriteLine("Lenght is {0} and height is {1} and width is {2} so the volumeis {3}",
+                length, height, width, volume = length*height*width);
         }
 
     }

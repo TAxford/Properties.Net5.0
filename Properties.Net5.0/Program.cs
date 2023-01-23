@@ -6,6 +6,8 @@ namespace Properties.Net5._0
     {
         static void Main(string[] args)
         {
+            Box box = new Box();
+
             Console.WriteLine("Hello World!");
         }
     }
