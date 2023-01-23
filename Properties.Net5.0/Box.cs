@@ -8,5 +8,11 @@ namespace Properties.Net5._0
 {
     internal class Box
     {
+        // member variables
+        public int length;
+        public int height;
+        public int width;
+        public int volume;
+
     }
 }
