@@ -20,7 +20,9 @@ namespace Properties.Net5._0
         }
 
         public int GetLength()
-        { return this.length; }
+        { 
+            return this.length; 
+        }
 
         public void DisplayInfo()
         {
