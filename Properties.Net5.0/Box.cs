@@ -19,6 +19,9 @@ namespace Properties.Net5._0
             this.length = length;
         }
 
+        public int GetLength()
+        { return this.length; }
+
         public void DisplayInfo()
         {
             Console.WriteLine("Lenght is {0} and height is {1} and width is {2} so the volumeis {3}",
