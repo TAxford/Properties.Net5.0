@@ -14,8 +14,12 @@ namespace Properties.Net5._0
         public int width;
         public int volume;
 
-        private void SetLength(int length)
+        public void SetLength(int length)
         {
+            if(length < 0)
+            {
+                throw new Exception("Length should be higher than 0");
+            }
             this.length = length;
         }
 
