@@ -11,7 +11,7 @@ namespace Properties.Net5._0
             //box.SetLength(3);
             box.height = 4;
             box.width = 5;
-            Console.WriteLine("Box length is " + box.GetLength());
+            Console.WriteLine("Box s volume is " + box.GetVolume());
 
             box.DisplayInfo();
         }
