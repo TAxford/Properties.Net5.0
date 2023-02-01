@@ -24,6 +24,11 @@ namespace Properties.Net5._0
             return this.length; 
         }
 
+        public int GetVolume()
+        {
+            return this.length * this.height * this.width;
+        }
+
         public void DisplayInfo()
         {
             Console.WriteLine("Lenght is {0} and height is {1} and width is {2} so the volumeis {3}",
