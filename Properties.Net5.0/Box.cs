@@ -14,7 +14,7 @@ namespace Properties.Net5._0
         public int width;
         public int volume;
 
-        public void SetLength(int length)
+        private void SetLength(int length)
         {
             this.length = length;
         }
