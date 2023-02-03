@@ -61,6 +61,14 @@ namespace Properties.Net5._0
             }
         }
 
+
+        public Box(int length, int height, int width)
+        {
+            this.length = length;
+            this.height = height;
+            this.Width = width;
+        }
+
         public void SetLength(int length)
         {
             if(length < 0)
