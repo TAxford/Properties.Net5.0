@@ -11,8 +11,11 @@ namespace Properties.Net5._0
         // member variables
         private int length = 3;
         private int height;
-        public int width;
+        //public int width;
         public int volume;
+
+        //Created using prop double tap
+        public int Width { get; set; }
 
         public int Height
         {
