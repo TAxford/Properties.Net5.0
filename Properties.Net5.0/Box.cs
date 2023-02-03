@@ -10,9 +10,14 @@ namespace Properties.Net5._0
     {
         // member variables
         private int length = 3;
-        public int height;
+        private int height;
         public int width;
         public int volume;
+
+        public int Height
+        {
+            get { return height; }
+        }
 
         public void SetLength(int length)
         {
