@@ -16,9 +16,22 @@ namespace Properties.Net5._0
 
         public int Height
         {
-            get { return height; }
+            get 
+            { 
+                return height; 
+            }
 
-            set { height = value; }
+            set 
+            { 
+                if(value < 0)
+                {
+                    height = -value;
+                }
+                else
+                {
+                    height = value;
+                }
+            }
         }
 
         public void SetLength(int length)
