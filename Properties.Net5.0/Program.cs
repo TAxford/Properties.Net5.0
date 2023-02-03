@@ -13,7 +13,6 @@ namespace Properties.Net5._0
             box.Width = 5;
             Console.WriteLine("Box s volume is " + box.Width);
             Console.WriteLine("Box s volume is " + box.Volume);
-            Console.WriteLine("Box s width is " + box.GetVolume());
             box.DisplayInfo();
         }
     }

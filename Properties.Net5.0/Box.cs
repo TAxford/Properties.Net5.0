@@ -12,7 +12,7 @@ namespace Properties.Net5._0
         private int length = 3;
         private int height;
        // public int width;
-        //public int volume;
+        private int volume;
 
         //Created using prop double tap
         public int Width { get; set; }
@@ -24,11 +24,7 @@ namespace Properties.Net5._0
         {
             get
             {
-                return this.Volume;
-            }
-            set
-            {
-                this.Volume = value;
+                return this.length * this.height * this.Width;
             }
         }
 
@@ -79,15 +75,11 @@ namespace Properties.Net5._0
             return this.length; 
         }
 
-        public int GetVolume()
-        {
-            return this.length * this.height * this.width;
-        }
-
+        
         public void DisplayInfo()
         {
             Console.WriteLine("Lenght is {0} and height is {1} and width is {2} so the volumeis {3}",
-                length, height, width, volume = length*height*width);
+                length, height, Width, volume = length*height*Width);
         }
 
     }
